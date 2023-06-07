@@ -1,0 +1,71 @@
+/* CSS file */
+/* ---theLooks */
+/* The vvisualization  */
+/* Drapes--Carpet--Paint  */
+
+.navContainer{
+    border: solid black;
+    background-color:lightgray;
+    height:45px;
+}
+
+.titleContainer{
+    width: 100%; 
+    border:solid green;
+    text-align: center;
+    display: flex; 
+    
+}
+
+.buttonContainer{
+    border:solid red;
+    height:65px;
+    text-align: center;
+}
+.boxContainer{
+    border:solid peru;
+    height:75px;
+    text-align: center; 
+
+}
+
+.choicebox{
+    width: 100%; 
+    border:solid red; 
+    background-color: lightgrey; 
+    padding: 10px 25px 10px 25px; 
+}
+
+
+
+
+
+.picture{
+    width: 100%;  
+    /*
+    border:solid orange;
+    height: auto; 
+    width: auto; 
+    max-width: 100%; 
+    max-height: 100%; */
+}
+
+.picContainer{
+    position: relative; 
+    /*
+    border:solid purple;
+    height: auto; 
+    width: auto; 
+    max-width: 100%; 
+    max-height: 100%; */
+}
+
+.text-block{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}

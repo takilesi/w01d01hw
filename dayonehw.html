@@ -1,0 +1,92 @@
+<!-- HTML  -->
+<!-- The Structure of our Webpage  -->
+    <!-- (House )  Wood..Foundation -->
+    
+    <!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="utf-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <title></title>
+            <meta name="description" content="">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet" href="dayonehwstyle.css">
+            <script> 
+
+              function changeImage()
+              {
+              var img = document.getElementById("image");
+              img.src="https://www.ambitiouskitchen.com/wp-content/uploads/2021/04/Chocolate-Peanut-Butter-Banana-Smoothie-5-594x594.jpg";
+              return false;
+              }
+              
+              function baseImage()
+              {
+              var img = document.getElementById("image");
+              img.src="https://cdn.smoothieking.com/images/site/SEO/_1200x630_crop_center-center_82_none/sk-menu-overview-share-image.jpg?mtime=1553394017";
+              return false;
+              }
+
+              </script>
+        </head>
+        <body>
+          
+        <!-- 1. NavigationBar -->
+            <div class="navContainer"></div>
+  
+        <!-- 2.Top Title  -->
+
+
+
+        <div class="titleContainer">
+    
+            <div class="choicebox"> 
+              <button id="clickme" onmouseover="changeImage();">
+                <h1>Chocolate Smoothie:</h1>
+              </button>
+              <p>drop the sugar, keep the chocolaty goodness</p> 
+            </div>
+
+            <div class="choicebox"> 
+              <h1>Strawberry Smoothie:</h1>
+              <p>icy strawberry goodness</p> 
+            </div>
+
+            <div class="choicebox"> 
+              <h1>Banana Smoothie:</h1>
+              <p>Frozen bananas create a creamy treat better than ice cream</p> 
+            </div>
+            
+            
+    
+        </div>
+    
+        
+        <!-- 3.Image -->
+    
+            <div class="picContainer">
+                <img id="image"
+                src="https://cdn.smoothieking.com/images/site/SEO/_1200x630_crop_center-center_82_none/sk-menu-overview-share-image.jpg?mtime=1553394017" 
+                class="picture">
+                <div class ="text-block">
+                  <p>GreenStripe® Cold Cups</p>
+                  
+                </div>
+             
+            </div>
+    
+         
+    
+        <!-- Button -->
+            <div class="buttonContainer">
+              <h1>Pricing may vary due to location</h1>
+            </div>
+    
+        <!-- Closing Box -->
+            <div class="boxContainer">
+              <h1>Cold and Refreshing!</h1>
+            </div>
+            
+            <script src="app.js" async defer></script>
+        </body>
+    </html>
